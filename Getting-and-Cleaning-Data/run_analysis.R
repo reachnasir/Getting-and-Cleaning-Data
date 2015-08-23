@@ -11,8 +11,8 @@
 #
 #       Save end result in the file `tidy.txt`.
 
-
-setwd("E:/NASIR/SME/CourseRA/3. Data Cleaning/ProjectWork")
+#       Note: Change the working directory usig setwd e.g. C:/mydir
+#             setwd("c:/mydir")
 
 library(reshape2)
 
