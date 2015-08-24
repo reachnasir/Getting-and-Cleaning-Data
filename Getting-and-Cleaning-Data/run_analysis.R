@@ -65,6 +65,6 @@ filename <- "ucihar_dataset.zip"
         allData.mean <- dcast(allData.melted, subject + activity ~ variable, mean)        
 
         #Saved final results into file `tidy.txt`
-        write.table(allData, "tidy.txt", row.names = FALSE, quote = FALSE)
+        write.table(allData.mean, "tidy.txt", row.names = FALSE, quote = FALSE)
         
 
